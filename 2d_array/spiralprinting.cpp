@@ -14,7 +14,7 @@ void spiralprint(int arr[][4], int row, int col){
         toprow++;
 
         //print right col
-        for(int i = toprow ; i<bottomrow;i++){
+        for(int i = toprow ; i<=bottomrow;i++){
             cout<<arr[i][rightcol]<<" ";
         }
         rightcol--;
@@ -25,7 +25,7 @@ void spiralprint(int arr[][4], int row, int col){
             }
             bottomrow--;
         }
-        if(left<=right){
+        if(leftcol<=rightcol){
             for(int i=bottomrow;i>=toprow;i--){
                 cout<<arr[i][leftcol]<<" ";
             }
