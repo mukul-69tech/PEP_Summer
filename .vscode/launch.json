@@ -8,8 +8,8 @@
       "args": [],
       "stopAtEntry": false,
       "externalConsole": true,
-      "cwd": "c:/Users/mukul/PEP_Summer",
-      "program": "c:/Users/mukul/PEP_Summer/build/Debug/outDebug",
+      "cwd": "c:/Users/mukul/PEP_Summer/strings01",
+      "program": "c:/Users/mukul/PEP_Summer/strings01/build/Debug/outDebug",
       "MIMode": "gdb",
       "miDebuggerPath": "gdb",
       "setupCommands": [
