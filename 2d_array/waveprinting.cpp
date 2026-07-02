@@ -2,7 +2,7 @@
 using namespace std;
 
 void waveprint(int arr[][3], int row, int col){
-    for(int c = 0;c<col++){
+    for(int c = 0;c<col++; c++){
         if(c%2==0){
             for(int r = 0;r<row;r++){
                 cout<<arr[r][c]<<" ";
