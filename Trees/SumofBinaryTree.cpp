@@ -14,7 +14,7 @@ class Node{
         left = NULL;
         right = NULL;
     }
-}
+};
 
 
 class Solution {
